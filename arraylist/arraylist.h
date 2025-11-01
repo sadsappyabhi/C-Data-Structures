@@ -13,6 +13,7 @@ typedef struct arraylist {
 int is_empty(Arraylist *list);
 int add(Arraylist *list, void* data);
 int add_at_index(Arraylist *list, void* data, int index);
+void swap(void *a, void *b, size_t nbytes);
 
 
 int testing(int a, int b);
